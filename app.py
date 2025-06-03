@@ -26,4 +26,4 @@ with gr.Blocks() as demo:
 
     generate_btn.click(fn=generate_3d_from_image, inputs=image_input, outputs=output_model)
 
-demo.launch()
+demo.launch(share=True)
